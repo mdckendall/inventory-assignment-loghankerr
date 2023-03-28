@@ -33,7 +33,7 @@ public class Main {
             var option = input.nextLine();
 
             switch (option) {
-                case "1" -> {
+                case "1" : {
                     System.out.println("Enter the name:");
                     var name = input.nextLine();
 
@@ -48,7 +48,7 @@ public class Main {
                     System.out.println("Item added.");
                 }
 
-                case "2" -> {
+                case "2" : {
                     System.out.println("Enter the serial number of the item to delete:");
                     var delSerial = input.nextLine();
 
@@ -60,7 +60,7 @@ public class Main {
                     }
                 }
 
-                case "3" -> {
+                case "3" : {
                     System.out.println("Enter the serial number of the item to update:");
                     var serial = input.nextLine();
 
@@ -80,7 +80,7 @@ public class Main {
                     }
                 }
 
-                case "4" -> {
+                case "4" : {
                     if (catalog.isEmpty()) {
                         System.out.println("No items found.");
                     } else {
@@ -90,11 +90,11 @@ public class Main {
                     }
                 }
 
-                case "5" -> {
+                case "5" : {
                     return;
                 }
 
-                default -> System.out.println("Invalid option. Please try again.");
+                default : System.out.println("Invalid option. Please try again.");
             }
         }
     }
