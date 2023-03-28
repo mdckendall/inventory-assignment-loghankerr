@@ -74,7 +74,7 @@ public class Main {
                             var price = input.nextInt();
                             input.nextLine();
                             item.price = price;
-                            
+
                             break;
                         }
                     }
