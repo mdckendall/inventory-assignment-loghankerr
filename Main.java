@@ -96,8 +96,6 @@ public class Main {
 
                 default -> System.out.println("Invalid option. Please try again.");
             }
-
-            System.out.println(System.lineSeparator());
         }
     }
 }
